@@ -1,0 +1,27 @@
+/* styles make fights */
+.portfolio-container-row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:darkgrey;
+    width:100%;
+    border-top: 2px solid black;
+    height: auto;
+}
+
+.portfolio-container-column, .portfolio-container-img {
+    display:flex;
+    float:left;
+    width: 33.33%;
+    padding:10px;
+    margin: 5px white;
+
+}
+
+.portfolio-container-img {
+    height:100%;
+    width:100%;
+    object-fit:contain;
+    padding:3px;
+}
+
